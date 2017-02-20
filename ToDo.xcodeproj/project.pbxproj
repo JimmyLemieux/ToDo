@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E09316C1E5651C6009E1E55 /* myCalenderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E09316B1E5651C6009E1E55 /* myCalenderCell.swift */; };
+		3E09316E1E5652B3009E1E55 /* CalenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E09316D1E5652B3009E1E55 /* CalenderViewController.swift */; };
 		3E5E22A41E50BCC500750D9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5E22A31E50BCC500750D9B /* AppDelegate.swift */; };
 		3E5E22A61E50BCC500750D9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5E22A51E50BCC500750D9B /* ViewController.swift */; };
 		3E5E22A91E50BCC500750D9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E5E22A71E50BCC500750D9B /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		3E5E22AE1E50BCC500750D9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E5E22AC1E50BCC500750D9B /* LaunchScreen.storyboard */; };
 		3E5E22B91E50BCC600750D9B /* ToDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5E22B81E50BCC600750D9B /* ToDoTests.swift */; };
 		3E5E22C41E50BCC600750D9B /* ToDoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5E22C31E50BCC600750D9B /* ToDoUITests.swift */; };
+		3E5E22D21E50D02C00750D9B /* mainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5E22D11E50D02C00750D9B /* mainCell.swift */; };
+		3E5E22D41E50DBE500750D9B /* AddViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5E22D31E50DBE500750D9B /* AddViewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E09316B1E5651C6009E1E55 /* myCalenderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myCalenderCell.swift; sourceTree = "<group>"; };
+		3E09316D1E5652B3009E1E55 /* CalenderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalenderViewController.swift; sourceTree = "<group>"; };
 		3E5E22A01E50BCC500750D9B /* ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E5E22A31E50BCC500750D9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E5E22A51E50BCC500750D9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,8 @@
 		3E5E22BF1E50BCC600750D9B /* ToDoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E5E22C31E50BCC600750D9B /* ToDoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoUITests.swift; sourceTree = "<group>"; };
 		3E5E22C51E50BCC600750D9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E5E22D11E50D02C00750D9B /* mainCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainCell.swift; sourceTree = "<group>"; };
+		3E5E22D31E50DBE500750D9B /* AddViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +107,11 @@
 			children = (
 				3E5E22A31E50BCC500750D9B /* AppDelegate.swift */,
 				3E5E22A51E50BCC500750D9B /* ViewController.swift */,
+				3E5E22D31E50DBE500750D9B /* AddViewViewController.swift */,
 				3E5E22A71E50BCC500750D9B /* Main.storyboard */,
+				3E09316B1E5651C6009E1E55 /* myCalenderCell.swift */,
+				3E09316D1E5652B3009E1E55 /* CalenderViewController.swift */,
+				3E5E22D11E50D02C00750D9B /* mainCell.swift */,
 				3E5E22AA1E50BCC500750D9B /* Assets.xcassets */,
 				3E5E22AC1E50BCC500750D9B /* LaunchScreen.storyboard */,
 				3E5E22AF1E50BCC500750D9B /* Info.plist */,
@@ -259,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E09316E1E5652B3009E1E55 /* CalenderViewController.swift in Sources */,
 				3E5E22A61E50BCC500750D9B /* ViewController.swift in Sources */,
+				3E5E22D41E50DBE500750D9B /* AddViewViewController.swift in Sources */,
+				3E5E22D21E50D02C00750D9B /* mainCell.swift in Sources */,
 				3E5E22A41E50BCC500750D9B /* AppDelegate.swift in Sources */,
+				3E09316C1E5651C6009E1E55 /* myCalenderCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +521,7 @@
 				3E5E22CA1E50BCC600750D9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E5E22CB1E50BCC600750D9B /* Build configuration list for PBXNativeTarget "ToDoTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +530,7 @@
 				3E5E22CD1E50BCC600750D9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E5E22CE1E50BCC600750D9B /* Build configuration list for PBXNativeTarget "ToDoUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +539,7 @@
 				3E5E22D01E50BCC600750D9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
